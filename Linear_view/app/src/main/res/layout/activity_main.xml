@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:src="@drawable/download"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/text_view"
+        android:text="Happy Birthday, Asad!"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="To all the good times and many more in future!"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:padding="20dp"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
